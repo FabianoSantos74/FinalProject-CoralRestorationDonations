@@ -1,13 +1,35 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+.nav li {
+    display:inline-block;
+}
+body {
+    background: white;
+}
+.hero-image-org {
+    background-image: url("https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940");
+    height: 300px;
+    width: 100%;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.hero-text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+}
+.org-logo {
+    height: 150px;
+    width: auto;
+    margin-top: 20px;
+}
+.org-info {
+    margin-top: 20px;
+}
+.org-donate {
+    margin-top: 20px;
+}
