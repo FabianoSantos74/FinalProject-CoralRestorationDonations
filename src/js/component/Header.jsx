@@ -31,23 +31,27 @@ export default class Header extends React.Component {
 		return (
 			<div>
 				<Navbar color="light" light expand="md">
-					<NavbarBrand href="/">reactstrap</NavbarBrand>
+					<NavbarBrand href="/">
+						<img
+							className="header-logo"
+							src="https://i.ibb.co/QHS9bMy/Logo-Makr-0kjk-GT.png"
+						/>
+					</NavbarBrand>
 					<NavbarToggler onClick={this.toggle} />
 					<Collapse isOpen={this.state.isOpen} navbar>
 						<Nav className="ml-auto" navbar>
 							<NavItem>
-								<NavLink href="/components/">
-									Components
-								</NavLink>
+								<NavLink href="/home/">Home</NavLink>
 							</NavItem>
 							<NavItem>
-								<NavLink href="https://github.com/reactstrap/reactstrap">
-									GitHub
-								</NavLink>
+								<NavLink href="/about/">About Us</NavLink>
+							</NavItem>
+							<NavItem>
+								<NavLink href="/contact/">Contact Us</NavLink>
 							</NavItem>
 							<UncontrolledDropdown nav inNavbar>
 								<DropdownToggle nav caret>
-									Options
+									Dropdown
 								</DropdownToggle>
 								<DropdownMenu right>
 									<DropdownItem>Option 1</DropdownItem>

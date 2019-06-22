@@ -1,11 +1,14 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-.nav li {
-    display:inline-block;
-}
 body {
     background: white;
 }
+
+.header-logo {
+    height: 65px;
+    width: auto;
+}
+
 .hero-image-org {
     background-image: url("https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940");
     height: 300px;
